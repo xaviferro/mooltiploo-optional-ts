@@ -2,7 +2,6 @@
   "name": "mooltiploo-optional-ts",
   "version": "1.0.3",
   "description": "",
-  "main": "dist/index.bundle.js",
   "scripts": {
     "build": "webpack --mode production",
     "test": "jest --coverage --verbose --config jestconfig.json"
@@ -10,6 +9,7 @@
   "files": [
     "dist/**/*"
   ],
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "keywords": [],
   "author": "",
