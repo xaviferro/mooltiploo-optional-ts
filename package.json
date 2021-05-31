@@ -1,13 +1,15 @@
 {
   "name": "mooltiploo-optional-ts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "src/index.ts",
   "scripts": {
     "build": "webpack --mode production",
     "test": "jest --coverage --verbose --config jestconfig.json"
   },
-  "files": ["dist/**/*"],
+  "files": [
+    "dist/**/*"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
