@@ -10,6 +10,8 @@
   "files": [
     "dist/**/*"
   ],
+  "main": "dist/index.bundle.js",
+  "types": "dist/index.d.ts",
   "keywords": [],
   "author": "",
   "license": "ISC",
